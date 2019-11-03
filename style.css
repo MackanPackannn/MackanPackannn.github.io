@@ -50,3 +50,11 @@ ul {
       font-size: 12px;
       text-align: center;
   }
+
+  .imagelul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 40%;
+  }
