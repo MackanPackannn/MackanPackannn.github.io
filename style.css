@@ -58,3 +58,8 @@ ul {
     width: 50%;
     height: 40%;
   }
+
+  .repolink {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+  }
