@@ -2,7 +2,7 @@
 
 MackanPackannn.github.io is a website for messing around with stuff that can be done with a website.
 
-## What it might be used for
+## What it could be used for
 
 - Personal website
 - Website for YouTube-channel
