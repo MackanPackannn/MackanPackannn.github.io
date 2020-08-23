@@ -1,65 +1,49 @@
-*, *:before, *:after {
-    box-sizing: border-box;
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
 }
 
-.header {
-    font-family: 'Roboto Mono', monospace;
-    text-align: center;
-    font-size: 36px;
+body {
+  background-image: url("img/headerpic.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 48px;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    font-family: 'Roboto Mono', monospace;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-  }
+  list-style-type: none;
+  width: 32%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
 
-  .active {
-    background-color: #4CAF50;
-  }
-  
-  li {
-    float: left;
-    border-right: 1px solid #bbb;
-  }
-  
-  li:last-child {
-      border-right: none;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
+li {
+  float: left;
+}
 
-  .textbelownavbar {
-      font-family: 'Roboto Mono', monospace;
-      font-size: 12px;
-      text-align: center;
-  }
+li a {
+  display: block;
+  color: darkgray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  .imagelul {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 40%;
-  }
+li a:hover:not(.active) {
+  color: gray;
+}
 
-  .repolink {
-    font-family: 'Roboto Mono', monospace;
-    font-size: 16px;
-  }
+li a.active {
+  color: black;
+}
